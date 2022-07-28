@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  font-weight: 700;
+}
+
+body {
+  background-color: #d1d8e5;
+}
+
+button {
+  background-color: #3b74f2;
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  justify-content: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 23px;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #3b74f2;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #3b74f2;
+}
+
+.cart img {
+  width: 140px;
+  height: 150px;
+  border: 2px solid #d9d9d9;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.message {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: #c7ffa6;
+  padding: 10px;
+  border-radius: 30px;
+  color: #217a00;
+}
+
+.links {
+  display: flex;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.content-title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 15px 0px;
+}
+
+.content-product {
+  height: 170px;
+  display: flex;
+  margin: 25px;
+  align-items: center;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content-total {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content-check {
+  border-top: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.content-button {
+  height: 50px;
+  padding: 20px;
+}
+
+.content-message {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 30px;
+}
